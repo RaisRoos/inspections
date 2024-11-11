@@ -1,0 +1,156 @@
+{
+  "inspections": [
+    {
+      "id": "001",
+      "inspectionGoal": "Inspectie van vocht- en schimmelbeschadiging door lekkage",
+      "date": "2024-09-12",
+      "client": "Huurdersvereniging A",
+      "address": "Tomatenstraat 10, Den Haag",
+      "inspectionStatus": "Uitgevoerd",
+      "inspector": "",
+      "executedInspections": [
+        {
+          "type": "Schade-inspectie",
+          "isChecked": true,
+          "location": "Kelder",
+          "newDamage": false,
+          "damageType": "slijtage",
+          "urgentRequired": true,
+          "description": "Vochtplekken en schimmelvorming door lekkage",
+          "photos": [
+            {
+              "url": "lekkage_waterleidingen_muur.jpg",
+              "description": "Schimmelvorming rond de waterleidingen door vocht"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "002",
+      "inspectionGoal": "Inspectie van defecte thermostaat en onregelmatige verwarming",
+      "date": "2024-09-02",
+      "client": "Huurdersvereniging B",
+      "address": "Aardappelweg 15, Amsterdam",
+      "inspectionStatus": "Uitgevoerd",
+      "inspector": "",
+      "executedInspections": [
+        {
+          "type": "Technishe installatie-inspectie",
+          "isChecked": true,
+          "location": "Kelder",
+          "installationType": "verwarming",
+          "reportedIssues": "Onregelmatig verwarmingsgedrag, mogelijk defecte thermostaat",
+          "approved": false,
+          "remarks": "Controle van ketel en vervanging van thermostaat vereist",
+          "photos": [
+            {
+              "url": "thermostaat_onregelmatig.jpg",
+              "description": "Thermostaat die onregelmatig gedrag toont boven 20 graden"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "003",
+      "inspectionGoal": "Inspectie van dakgoten op schade en onderhoudsbehoefte",
+      "date": "2024-10-12",
+      "client": "Huurdersvereniging A",
+      "address": "Wortelstraat 18, Haarlem",
+      "inspectionStatus": "Uitgevoerd",
+      "inspector": "",
+      "executedInspections": [
+        {
+          "type": "Schade-inspectie",
+          "isChecked": true,
+          "location": "Dakgoten",
+          "newDamage": true,
+          "damageType": "calamiteit",
+          "urgentRequired": true,
+          "description": "Schade door storm, dakgoten verstopt door takken en vuil.",
+          "photos": [
+            {
+              "url": "dakgoot_onderhoud_vuil1.jpg",
+              "description": "Ophoping van vuil en bladeren in de dakgoot"
+            },
+            {
+              "url": "dakgoot_onderhoud_vuil2.jpg",
+              "description": "Ophoping van vuil en bladeren in de dakgoot, slechte afvoer"
+            }
+          ]
+        },
+        {
+          "type": "Achterstallig onderhoud-inspectie",
+          "isChecked": true,
+          "location": "Dakgoten",
+          "maintenanceType": "leidingwerk",
+          "urgentRequired": true,
+          "costEstimate": "0-500",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "id": "004",
+      "inspectionGoal": "Inspectie van extra stopcontacten in de slaapkamer op veiligheid",
+      "date": "2024-11-02",
+      "client": "Woningcorporatie B",
+      "address": "Limoenpad 1, Rotterdam",
+      "inspectionStatus": "Uitgevoerd",
+      "inspector": "",
+      "executedInspections": [
+        {
+          "type": "Modificatie-inspectie",
+          "isChecked": true,
+          "location": "Slaapkamer",
+          "performedBy": "Huurder",
+          "modificationDescription": "Toevoegen van extra stopcontacten aan de muur voor elektronica",
+          "actionToBeTaken": "laten keuren",
+          "remarks": "Er is controle nodig om te verzekeren dat de installatie veilig is en voldoet aan de normen.",
+          "photos": [
+            {
+              "url": "extra_stopcontacten.jpg",
+              "description": "Close-up van het toegevoegde stopcontacten, geïnstalleerd door de huurder"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "005",
+      "inspectionGoal": "Inspectie van schade en onderhoud aan de buitengevel door verwering",
+      "date": "2024-09-10",
+      "client": "Woningcorporatie A",
+      "address": "Korianderlaan 14, Arnhem",
+      "inspectionStatus": "Uitgevoerd",
+      "inspector": "",
+      "executedInspections": [
+        {
+          "type": "Schade-inspectie",
+          "isChecked": true,
+          "location": "Buitengevel",
+          "newDamage": true,
+          "damageType": "slijtage",
+          "urgentRequired": true,
+          "description": "Schade door verwering, loslatend schilderwerk",
+          "photos": [
+            {
+              "url": "loslatend_schilderwerk.jpg",
+              "description": "Loslatend schilderwerk door verwering op de buitengevel"
+            }
+          ]
+        },
+        {
+          "type": "Achterstallig onderhoud-inspectie",
+          "isChecked": true,
+          "location": "Buitengevel",
+          "maintenanceType": "schilderwerk",
+          "urgentRequired": true,
+          "costEstimate": "500-1500",
+          "photos": []
+        }
+      ]
+    }
+  ]
+}
