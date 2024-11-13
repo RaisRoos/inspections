@@ -2,13 +2,13 @@
   "inspections": [
     {
       "id": "001",
-      "inspectionGoal": "Inspectie van vocht- en schimmelbeschadiging door lekkage",
+      "description": "Inspectie van vocht- en schimmelbeschadiging door lekkage",
       "date": "2024-09-12",
       "client": "Huurdersvereniging A",
       "address": "Tomatenstraat 10, Den Haag",
-      "inspectionStatus": "Uitgevoerd",
+      "status": "Uitgevoerd",
       "inspector": "",
-      "executedInspections": [
+      "completedInspections": [
         {
           "type": "Schade-inspectie",
           "isChecked": true,
@@ -28,13 +28,13 @@
     },
     {
       "id": "002",
-      "inspectionGoal": "Inspectie van defecte thermostaat en onregelmatige verwarming",
+      "description": "Inspectie van defecte thermostaat en onregelmatige verwarming",
       "date": "2024-09-02",
       "client": "Huurdersvereniging B",
       "address": "Aardappelweg 15, Amsterdam",
-      "inspectionStatus": "Uitgevoerd",
+      "status": "Uitgevoerd",
       "inspector": "",
-      "executedInspections": [
+      "completedInspections": [
         {
           "type": "Technishe installatie-inspectie",
           "isChecked": true,
@@ -54,13 +54,13 @@
     },
     {
       "id": "003",
-      "inspectionGoal": "Inspectie van dakgoten op schade en onderhoudsbehoefte",
+      "description": "Inspectie van dakgoten op schade en onderhoudsbehoefte",
       "date": "2024-10-12",
       "client": "Huurdersvereniging A",
       "address": "Wortelstraat 18, Haarlem",
-      "inspectionStatus": "Uitgevoerd",
+      "status": "Uitgevoerd",
       "inspector": "",
-      "executedInspections": [
+      "completedInspections": [
         {
           "type": "Schade-inspectie",
           "isChecked": true,
@@ -93,13 +93,13 @@
     },
     {
       "id": "004",
-      "inspectionGoal": "Inspectie van extra stopcontacten in de slaapkamer op veiligheid",
+      "description": "Inspectie van extra stopcontacten in de slaapkamer op veiligheid",
       "date": "2024-11-02",
       "client": "Woningcorporatie B",
       "address": "Limoenpad 1, Rotterdam",
-      "inspectionStatus": "Uitgevoerd",
+      "status": "Uitgevoerd",
       "inspector": "",
-      "executedInspections": [
+      "completedInspections": [
         {
           "type": "Modificatie-inspectie",
           "isChecked": true,
@@ -119,13 +119,13 @@
     },
     {
       "id": "005",
-      "inspectionGoal": "Inspectie van schade en onderhoud aan de buitengevel door verwering",
+      "description": "Inspectie van schade en onderhoud aan de buitengevel door verwering",
       "date": "2024-09-10",
       "client": "Woningcorporatie A",
       "address": "Korianderlaan 14, Arnhem",
-      "inspectionStatus": "Uitgevoerd",
+      "status": "Uitgevoerd",
       "inspector": "",
-      "executedInspections": [
+      "completedInspections": [
         {
           "type": "Schade-inspectie",
           "isChecked": true,
